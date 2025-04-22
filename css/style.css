@@ -1,0 +1,40 @@
+body {
+    font-family: "cairo", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.game {
+    margin: auto;
+    width: 259px;
+    color: #00ff0d;
+    text-align: center;
+    font-weight: 900;
+}
+.title {
+    background-color: #374201;
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+span {
+    color: rgb(255, 230, 0);
+}
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: #374201;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    margin: 1px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.square:hover{
+    background-color: rgb(54, 100, 24);
+    cursor: pointer;
+}
